@@ -13,3 +13,20 @@ table th {
   padding: 8px;
   text-align: center;
 }
+
+/* body{
+
+  margin: auto;
+} */
+
+h1{
+  color: rgb(41, 133, 194);
+  text-decoration: underline;
+  text-align: center;
+}
+
+tr{
+  background-color: rgb(41, 133, 194);
+  color: white;
+}
+
