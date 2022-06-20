@@ -1,7 +1,6 @@
 // fill in javascript code here
 
 // let data
-
 document.querySelector("form").addEventListener("submit",function (){
     event.preventDefault();
     console.log("target buttuon work");
@@ -23,13 +22,13 @@ function addDetails(){
  specialization.textContent=document.querySelector("#dept").value;
 
  let exp=document.createElement("td");
- exp.textContent=document.querySelector("#dept").value;
+ exp.textContent=document.querySelector("#exp").value;
 
  let email=document.createElement("td");
- email.textContent=document.querySelector("#dept").value;
+ email.textContent=document.querySelector("#email").value;
 
  let mobile=document.createElement("td");
- mobile.textContent=document.querySelector("#dept").value;
+ mobile.textContent=document.querySelector("#mbl").value;
 
  let role=document.createElement("td");
  // make a condition
@@ -62,5 +61,4 @@ document.querySelector("tbody").append(tableRow);
 
 
 }
-
 
